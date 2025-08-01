@@ -1,5 +1,5 @@
 //
-//  JudyView.swift
+//  LumiView.swift
 //  2025-F4-Github
 //
 //  Created by Luminouxx on 8/1/25.
@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct HowardView: LearnerView {
+struct DanaView: LearnerView {
     // TODO: 1. 이름, 팀 수정하고 커밋하기
-    var name: String = "Howard"
+    var name: String = "Dana"
     
-    var team: String = "멘토팀"
+    var team: String = "파운데이션러너"
     
     var body: some View {
         Text("저의 이름은 \(name)입니다.")
@@ -22,6 +22,6 @@ struct HowardView: LearnerView {
 }
 
 #Preview {
-    HowardView()
+    DanaView()
 }
 
