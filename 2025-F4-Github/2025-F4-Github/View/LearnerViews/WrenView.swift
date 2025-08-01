@@ -18,6 +18,7 @@ struct WrenView: LearnerView {
             .font(.largeTitle)
         Text("저의 팀은 \(team) 입니다.")
             .font(.subheadline)
+        Text("Test")
     }
 }
 
