@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct SeiView: LearnerView {
+struct HowardView: LearnerView {
     // TODO: 1. 이름, 팀 수정하고 커밋하기
-    var name: String = "Sei"
+    var name: String = "Howard"
     
-    var team: String = "러너"
+    var team: String = "멘토"
     
     var body: some View {
         Text("저의 이름은 \(name)입니다.")
@@ -22,6 +22,6 @@ struct SeiView: LearnerView {
 }
 
 #Preview {
-    SeiView()
+    HowardView()
 }
 
