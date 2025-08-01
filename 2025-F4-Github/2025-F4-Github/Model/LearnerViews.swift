@@ -12,6 +12,9 @@ let learnerViews: [any LearnerView] = [
     LumiView(),
     JudyView(),
     FridayView(),
-    NikaView()
-]
+    NikaView(),
+    HanView(),
+    OwenView()
+
+
 
